@@ -1,29 +1,34 @@
-// usei o express pra criar e configurar meu serivdor
+// Importing the Express framework
 const express = require('express')
+
+// Creating an Express server instance
 const server = express()
 
-// configurar arquivos estáticos (css, scripts, imgs)
+// Serving static files from the "backup_app" directory
 server.use(express.static("backup_app"))
 
-// criei uma rota /
-// e capturo o pedido do cliente para responder
+// Handling GET requests to the root URL ("/") 
 server.get("/", function(req, res) {
-    // return res.send("Resposta do servidor")
+    // Sending the "index.html" file as a response
     return res.sendFile(__dirname + "/index.html")
 })
 
+// Handling GET requests to the "/login" URL
 server.get("/login", function(req, res) {
-    // return res.send("Resposta do servidor")
+    // Sending the "login.html" file as a response
     return res.sendFile(__dirname + "/login.html")
 })
 
+// Handling GET requests to the "/signup" URL
 server.get("/signup", function(req, res) {
-    // return res.send("Resposta do servidor")
+    // Sending the "signup.html" file as a response
     return res.sendFile(__dirname + "/signup.html")
 })
 
-// ligo meu servidor
+// Listening for connections on port 3000
+// The server is configured to accept connections from any IP address ('0.0.0.0')
 server.listen(3000, '0.0.0.0', function() {
+    // Logging a message when the server starts listening
     console.log('Listening to port: example:' + 3000);
 });
 
