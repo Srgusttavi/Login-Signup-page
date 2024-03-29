@@ -1,71 +1,76 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en"> 
+
 <head>
     <meta charset="UTF-8">
-    <title>Sign up</title>
+    <title>Sign up</title> <!-- Sets the title of the document displayed in the browser -->
 
+    <!-- External stylesheet links for fonts and custom CSS -->
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins:ital,wght@1,500;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style_signup.css">
+    <link rel="stylesheet" href="/style_signup.css"> <!-- Links to an external CSS file -->
 
-    <meta name="viewport" content="width=414, height=910, initial-scale=1.0">
+    <!-- Meta tag for viewport settings -->
+    <meta name="viewport" content="width=414, height=910, initial-scale=1.0"> <!-- Sets the viewport width, height, and initial scale for mobile responsiveness -->
 </head>
+
 <body>
-    <div id="container">
+    <div id="container"> <!-- Container for the entire content -->
 
-        <div class="back-page">
-            <a href="/">
-                <p class="back">⟵ Back</p>
-            <h1 class="signup">Sign Up</h1>
+        <div class="back-page"> <!-- Container for the back button -->
+            <a href="/"> <!-- Anchor tag for the back button, linking to the home page -->
+                <p class="back">⟵ Back</p> <!-- Back button text -->
+                <h1 class="signup">Sign Up</h1> <!-- Heading for the sign up page -->
             </a>
-            
         </div>
-        
 
-        <div class="registered-container">
+        <div class="registered-container"> <!-- Container for the sign up form -->
 
             <main>
-                
-                <h1>Create new<br>
+                <h1>Create new<br> <!-- Heading for the sign up form -->
                     Account
                 </h1>
-                
 
                 <p>
-                    Already Registered? Log in here.
+                    Already Registered? Log in here. <!-- Description for the sign up form -->
                 </p>
             </main>
 
-            <form action="">
+            <!-- Sign up form -->
+            <form action=""> <!-- Form action attribute specifies where to send the form data when submitted -->
 
+                <!-- Name input field -->
                 <div class="input-wrapper">
-                    <label for="name">NAME</label> <br>
-                    <input type="name" name="name"> <br>
+                    <label for="name">NAME</label> <br> <!-- Label for the name input field -->
+                    <input type="name" name="name"> <br> <!-- Text input field for name -->
                 </div>
 
+                <!-- Email input field -->
                 <div class="input-wrapper">
-                    <label for="email">EMAIL</label> <br>
-                    <input type="email" name="email"> <br>
+                    <label for="email">EMAIL</label> <br> <!-- Label for the email input field -->
+                    <input type="email" name="email"> <br> <!-- Text input field for email -->
                 </div>
 
+                <!-- Password input field -->
                 <div class="input-wrapper">
-                    <label for="password">PASSWORD</label> <br>
-                    <input type="password" name="password"> <br>
+                    <label for="password">PASSWORD</label> <br> <!-- Label for the password input field -->
+                    <input type="password" name="password"> <br> <!-- Text input field for password -->
                 </div>
 
-                <!-- Envolver o botão em uma tag <a> -->
-            <a href="/">
-                <button class="signup-button">Sign Up</button>
-            </a>
+                <!-- Sign up button -->
+                <!-- The button is wrapped in an anchor tag to create a link -->
+                <a href="/">
+                    <button class="signup-button">Sign Up</button> <!-- Button to submit the sign up form -->
+                </a>
 
-            <a href="/login">
-                <p>Already Have Account?<br>
-                    Login !</p>
-            </a>
-            
-            </form>
-        </div>
-        
-    </div>
+                <!-- Login link -->
+                <a href="/login">
+                    <p>Already Have Account?<br>
+                        Login!</p> <!-- Link for already registered users to log in -->
+                </a>
+
+            </form> 
+        </div> 
+    </div> 
 </body>
 </html>
