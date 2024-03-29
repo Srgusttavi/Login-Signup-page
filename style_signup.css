@@ -1,204 +1,152 @@
+/* Styling for the body element */
 body {
-    background: white;
-
-    text-align: center;
-
-    margin: 0;
+    background: white; /* Sets background color to white */
+    text-align: center; /* Aligns text content to the center */
+    margin: 0; /* Removes default margin */
 }
 
+/* Styling for the body element when it has the class 'hideScroll' */
 body.hideScroll {
-    overflow: hidden;
+    overflow: hidden; /* Hides overflow content */
 }
 
-
+/* Styling for the container element */
 #container {
-    
-    width: 414px;
-    height: 950px;
-
-    margin: 0 auto; /* Centraliza o container */
-
-    overflow: auto;
+    width: 414px; /* Sets width of container */
+    height: 950px; /* Sets height of container */
+    margin: 0 auto; /* Centers the container horizontally */
+    overflow: auto; /* Allows content overflow with scrollbar if needed */
 }
 
+/* Styling for the back page container */
 .back-page {
-    display: flex;
-
-    flex-direction: column;
-
-    justify-self: center;
-
-    background-color: #4942CE; /* Cor de fundo do container */
-    
-    width: 246px;
-    height: 246px;
-    
-    border-radius: 50%;
-
-    position: relative;
-    left: -59px;
-    top: -84px;
+    display: flex; /* Displays flex items */
+    flex-direction: column; /* Sets flex direction to column */
+    justify-self: center; /* Aligns items to the center */
+    background-color: #4942CE; /* Sets background color */
+    width: 246px; /* Sets width */
+    height: 246px; /* Sets height */
+    border-radius: 50%; /* Sets border radius to create a circle */
+    position: relative; /* Sets position to relative */
+    left: -59px; /* Positions from the left */
+    top: -84px; /* Positions from the top */
 }
 
+/* Styling for text elements within the back page container */
 .back-page .back, .signup {
-    color: white;
-
-    position: relative;
-    left: 20px;
-    top: 106px;
-    
-    
+    color: white; /* Sets text color to white */
+    position: relative; /* Sets position to relative */
+    left: 20px; /* Positions from the left */
+    top: 106px; /* Positions from the top */
 }
 
-
-.back-page p{
-
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-    margin-top: 10px;  
-
-
+.back-page p {
+    /* Styling for paragraphs within the back page */
+    font-family: "DM Sans", sans-serif; /* Sets font family */
+    font-optical-sizing: auto; /* Sets font optical sizing */
+    font-weight: 400; /* Sets font weight */
+    font-style: normal; /* Sets font style to normal */
+    font-size: 15px; /* Sets font size */
+    margin-top: 10px; /* Adds margin space on top */
 }
 
 .back-page h1 {
-
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    
-    font-size: 21px;
-    margin-top: 0;
-
+    /* Styling for headings within the back page */
+    font-family: "Poppins", sans-serif; /* Sets font family */
+    font-weight: 500; /* Sets font weight */
+    font-style: normal; /* Sets font style to normal */
+    font-size: 21px; /* Sets font size */
+    margin-top: 0; /* Removes default margin on top */
 }
 
-
-p.poppins-bold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-}
-
+/* Styling for main content */
 main {
-    margin-top: 71px;
+    margin-top: 71px; /* Adds margin space on top */
 }
 
 main h1 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 26px;
-
-    color: white;
+    /* Styling for headings within main content */
+    font-family: "Poppins", sans-serif; /* Sets font family */
+    font-weight: 700; /* Sets font weight */
+    font-style: italic; /* Sets font style to italic */
+    font-size: 26px; /* Sets font size */
+    color: white; /* Sets text color to white */
 }
 
 main p {
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    margin-top: 0;
-
-    color: white;
+    /* Styling for paragraphs within main content */
+    font-family: "DM Sans", sans-serif; /* Sets font family */
+    font-optical-sizing: auto; /* Sets font optical sizing */
+    font-weight: 400; /* Sets font weight */
+    font-style: normal; /* Sets font style to normal */
+    font-size: 14px; /* Sets font size */
+    margin-top: 0; /* Removes default margin on top */
+    color: white; /* Sets text color to white */
 }
 
-
-#buttons {
-    margin: 0px;
-}
-
-
-
+/* Styling for the registered container */
 .registered-container {
-    display: flex;
-
-    flex-direction: column;
-
-    align-items: center;
-
-    
-    width: 434px auto;
-    height: 700px;
-
-    background-color: #22263E; /* Cor de fundo do container */
-    border-radius: 19px;
-
-    position: relative;
-
-    top: -64px;
+    display: flex; /* Displays flex items */
+    flex-direction: column; /* Sets flex direction to column */
+    align-items: center; /* Aligns items to the center */
+    width: 434px; /* Sets width */
+    height: 700px; /* Sets height */
+    background-color: #22263E; /* Sets background color */
+    border-radius: 19px; /* Sets border radius */
+    position: relative; /* Sets position to relative */
+    top: -64px; /* Positions from the top */
 }
 
+/* Styling for input fields within the form */
 .input-wrapper {
-    color: white;
-    text-align: left;
-
-    margin-top: 10px;
-
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    
-
+    color: white; /* Sets text color to white */
+    text-align: left; /* Aligns text to the left */
+    margin-top: 10px; /* Adds margin space on top */
+    font-family: "DM Sans", sans-serif; /* Sets font family */
+    font-optical-sizing: auto; /* Sets font optical sizing */
+    font-weight: 400; /* Sets font weight */
+    font-style: normal; /* Sets font style to normal */
+    font-size: 14px; /* Sets font size */
 }
 
+/* Styling for input and textarea fields within the form */
 form input,
 form textarea {
-    width: 90%;
-
-    border-radius: 40px;
-    border: 1px solid rgba(143, 142, 142, 0.4);
-
-    outline: none;
-
-    height: 52px;
-    width: 270px;
-
-    background-color: rgb(143, 142, 142, 0.4);
-
-    color: white;
-    
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 14px;
+    width: 90%; /* Sets width */
+    border-radius: 40px; /* Sets border radius */
+    border: 1px solid rgba(143, 142, 142, 0.4); /* Sets border */
+    outline: none; /* Removes outline */
+    height: 52px; /* Sets height */
+    background-color: rgb(143, 142, 142, 0.4); /* Sets background color */
+    color: white; /* Sets text color to white */
+    font-family: "Poppins", sans-serif; /* Sets font family */
+    font-weight: 300; /* Sets font weight */
+    font-style: normal; /* Sets font style to normal */
+    font-size: 14px; /* Sets font size */
 }
 
-
+/* Styling for the sign-up button */
 .signup-button {
-    background-color: #4942CE; /* Cor de fundo do botão Login */
-    color: white; /* Cor do texto do botão Login */
-    
-    height: 54px;
-    width: 266px;
-    
-    border: solid 2px #4942CE; /* Borda do botão Sign Up */
-    
-    font-family: "Poppins", sans-serif;
-    
-    font-weight: 500;
-    font-style: italic;
-    
-    border-radius: 60px; /* Borda arredondada */
-    
-    margin-top: 25px;
-    
-    cursor: pointer;
-    
+    background-color: #4942CE; /* Sets background color */
+    color: white; /* Sets text color to white */
+    height: 54px; /* Sets height */
+    width: 266px; /* Sets width */
+    border: solid 2px #4942CE; /* Sets border */
+    font-family: "Poppins", sans-serif; /* Sets font family */
+    font-weight: 500; /* Sets font weight */
+    font-style: italic; /* Sets font style to italic */
+    border-radius: 60px; /* Sets border radius */
+    margin-top: 25px; /* Adds margin space on top */
+    cursor: pointer; /* Sets cursor to pointer */
 }
 
+/* Styling for paragraphs within the form */
 form p {
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 10px;
-    margin-top: 5px;
-
-
-    color: white;
+    font-family: "DM Sans", sans-serif; /* Sets font family */
+    font-optical-sizing: auto; /* Sets font optical sizing */
+    font-weight: 400; /* Sets font weight */
+    font-style: normal; /* Sets font style to normal */
+    font-size: 10px; /* Sets font size */
+    margin-top: 5px; /* Adds margin space on top */
+    color: white; /* Sets text color to white */
 }
