@@ -1,118 +1,111 @@
+/* Styling for the body element */
 body {
-    background: white;
-    color:#4942CE;
+    background: white; /* Background color set to white */
+    color:#4942CE; /* Text color set to a shade of blue */
 
-    text-align: center;
+    text-align: center; /* Aligns text content to the center */
 
-    margin: 0;
+    margin: 0; /* Removes default margin */
 }
 
+/* Styling for the body element when it has the class 'hideScroll' */
 body.hideScroll {
-    overflow: hidden;
+    overflow: hidden; /* Hides overflow content */
 }
 
-
+/* Styling for the container element */
 #container {
-    
-    width: 414px;
-    height: 775px;
+    width: 414px; /* Sets width of container */
+    height: 775px; /* Sets height of container */
 
-    margin: 0 auto; /* Centraliza o container */
+    margin: 0 auto; /* Centers the container horizontally */
 
-    margin-top: 30px;
+    margin-top: 30px; /* Adds margin space on top */
 
-    overflow: auto;
+    overflow: auto; /* Allows content overflow with scrollbar if needed */
 }
 
-
+/* Styling for specific paragraphs with class 'poppins-bold-italic' */
 p.poppins-bold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
+    font-family: "Poppins", sans-serif; /* Sets font family to Poppins */
+    font-weight: 700; /* Sets font weight to bold */
+    font-style: italic; /* Sets font style to italic */
 }
 
+/* Styling for main content */
 main {
-    margin: 17px;
+    margin: 17px; /* Adds margin space */
 }
 
+/* Styling for headings within main content */
 main h1 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 27px;
+    font-family: "Poppins", sans-serif; /* Sets font family to Poppins */
+    font-weight: 700; /* Sets font weight to bold */
+    font-style: italic; /* Sets font style to italic */
+    font-size: 27px; /* Sets font size */
 }
 
+/* Styling for paragraphs within main content */
 main p {
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    margin-top: 0;
+    font-family: "DM Sans", sans-serif; /* Sets font family to DM Sans */
+    font-optical-sizing: auto; /* Sets font optical sizing */
+    font-weight: 400; /* Sets font weight */
+    font-style: normal; /* Sets font style to normal */
+    font-size: 20px; /* Sets font size */
+    margin-top: 0; /* Removes top margin */
 }
 
-
-#buttons {
-    margin: 0px;
-}
-
+/* Styling for button container */
 .button-container {
-    display: flex;
+    display: flex; /* Displays flex items */
+    flex-direction: column; /* Sets flex direction to column */
 
-    flex-direction: column;
+    align-items: center; /* Aligns items to the center */
+    margin-top: 100px; /* Adds top margin */
 
-    align-items: center;
-    
-    margin-top: 100px;
+    height: 400px auto; /* Sets height */
+    right: 369.4px; /* Positions from the right */
 
-    height: 400px auto;
-    right: 369.4px;
-
-    background-color: #333366; /* Cor de fundo do container */
-    border-radius: 19px;
+    background-color: #333366; /* Sets background color */
+    border-radius: 19px; /* Sets border radius */
 }
 
-
-
+/* Styling for login and signup buttons */
 .login-button, .signup-button {
-    border-radius: 60px; /* Borda arredondada */
-
-    cursor: pointer;
+    border-radius: 60px; /* Sets border radius */
+    cursor: pointer; /* Sets cursor to pointer */
 }
 
+/* Styling for login button */
 .login-button {
-    background-color: #4942CE; /* Cor de fundo do botão Login */
-    color: white; /* Cor do texto do botão Login */
+    background-color: #4942CE; /* Sets background color */
+    color: white; /* Sets text color */
 
-    margin-top: 116px;
+    margin-top: 116px; /* Adds top margin */
 
-    width: 257px;
-    height: 59px;
+    width: 257px; /* Sets width */
+    height: 59px; /* Sets height */
     
-    border: solid 2px #4942CE; /* Borda do botão Sign Up */
+    border: solid 2px #4942CE; /* Sets border */
+    font-family: "Poppins", sans-serif; /* Sets font family */
 
-    font-family: "Poppins", sans-serif;
-
-    font-weight: 500;
-    font-style: italic;
+    font-weight: 500; /* Sets font weight */
+    font-style: italic; /* Sets font style to italic */
 }
 
+/* Styling for signup button */
 .signup-button {
-    border: solid 2px #4942CE; /* Borda do botão Sign Up */
-    color: white;
+    border: solid 2px #4942CE; /* Sets border */
+    color: white; /* Sets text color */
 
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0); /* Sets background color */
 
-    margin: 10px 20px 116px;
+    margin: 10px 20px 116px; /* Sets margin */
 
-    width: 257px;
-    height: 59px;
+    width: 257px; /* Sets width */
+    height: 59px; /* Sets height */
 
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
+    font-family: "Poppins", sans-serif; /* Sets font family */
+    font-weight: 500; /* Sets font weight */
+    font-style: italic; /* Sets font style to italic */
 }
-
-
-
-
