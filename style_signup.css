@@ -1,0 +1,204 @@
+body {
+    background: white;
+
+    text-align: center;
+
+    margin: 0;
+}
+
+body.hideScroll {
+    overflow: hidden;
+}
+
+
+#container {
+    
+    width: 414px;
+    height: 950px;
+
+    margin: 0 auto; /* Centraliza o container */
+
+    overflow: auto;
+}
+
+.back-page {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-self: center;
+
+    background-color: #4942CE; /* Cor de fundo do container */
+    
+    width: 246px;
+    height: 246px;
+    
+    border-radius: 50%;
+
+    position: relative;
+    left: -59px;
+    top: -84px;
+}
+
+.back-page .back, .signup {
+    color: white;
+
+    position: relative;
+    left: 20px;
+    top: 106px;
+    
+    
+}
+
+
+.back-page p{
+
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 10px;  
+
+
+}
+
+.back-page h1 {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+    font-size: 21px;
+    margin-top: 0;
+
+}
+
+
+p.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+main {
+    margin-top: 71px;
+}
+
+main h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 26px;
+
+    color: white;
+}
+
+main p {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    margin-top: 0;
+
+    color: white;
+}
+
+
+#buttons {
+    margin: 0px;
+}
+
+
+
+.registered-container {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    
+    width: 434px auto;
+    height: 700px;
+
+    background-color: #22263E; /* Cor de fundo do container */
+    border-radius: 19px;
+
+    position: relative;
+
+    top: -64px;
+}
+
+.input-wrapper {
+    color: white;
+    text-align: left;
+
+    margin-top: 10px;
+
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    
+
+}
+
+form input,
+form textarea {
+    width: 90%;
+
+    border-radius: 40px;
+    border: 1px solid rgba(143, 142, 142, 0.4);
+
+    outline: none;
+
+    height: 52px;
+    width: 270px;
+
+    background-color: rgb(143, 142, 142, 0.4);
+
+    color: white;
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+}
+
+
+.signup-button {
+    background-color: #4942CE; /* Cor de fundo do botão Login */
+    color: white; /* Cor do texto do botão Login */
+    
+    height: 54px;
+    width: 266px;
+    
+    border: solid 2px #4942CE; /* Borda do botão Sign Up */
+    
+    font-family: "Poppins", sans-serif;
+    
+    font-weight: 500;
+    font-style: italic;
+    
+    border-radius: 60px; /* Borda arredondada */
+    
+    margin-top: 25px;
+    
+    cursor: pointer;
+    
+}
+
+form p {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    margin-top: 5px;
+
+
+    color: white;
+}

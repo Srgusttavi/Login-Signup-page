@@ -1,0 +1,118 @@
+body {
+    background: white;
+    color:#4942CE;
+
+    text-align: center;
+
+    margin: 0;
+}
+
+body.hideScroll {
+    overflow: hidden;
+}
+
+
+#container {
+    
+    width: 414px;
+    height: 775px;
+
+    margin: 0 auto; /* Centraliza o container */
+
+    margin-top: 30px;
+
+    overflow: auto;
+}
+
+
+p.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+main {
+    margin: 17px;
+}
+
+main h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 27px;
+}
+
+main p {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+
+#buttons {
+    margin: 0px;
+}
+
+.button-container {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    
+    margin-top: 100px;
+
+    height: 400px auto;
+    right: 369.4px;
+
+    background-color: #333366; /* Cor de fundo do container */
+    border-radius: 19px;
+}
+
+
+
+.login-button, .signup-button {
+    border-radius: 60px; /* Borda arredondada */
+
+    cursor: pointer;
+}
+
+.login-button {
+    background-color: #4942CE; /* Cor de fundo do botão Login */
+    color: white; /* Cor do texto do botão Login */
+
+    margin-top: 116px;
+
+    width: 257px;
+    height: 59px;
+    
+    border: solid 2px #4942CE; /* Borda do botão Sign Up */
+
+    font-family: "Poppins", sans-serif;
+
+    font-weight: 500;
+    font-style: italic;
+}
+
+.signup-button {
+    border: solid 2px #4942CE; /* Borda do botão Sign Up */
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    margin: 10px 20px 116px;
+
+    width: 257px;
+    height: 59px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+
+
